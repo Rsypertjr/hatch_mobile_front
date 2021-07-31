@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.info{
+  position:relative;
+  width:100%;
+  margin:2px;
+}
+
+.info-field{
+  margin: 5px 0;
+  width: 90%;
+}
+
+.itop{
+  color:black;
+}
+
+.ibot{
+  color:red;
+}
+
+.ifield{
+  margin: 1em 0 1em 0;
+  height: 3em;
+  width: 100%;
+  position:relative;
+  top: -0.5em;
+
+
+}
+.icon-holder {
+  position:relative;
+  height: 4em;
+  width: 5.5em;
+  float:left
+}
+
+.info-holder {
+  position:relative;
+  height: 70%;
+  width:70%;
+  font-size: 0.85em;
+  float:left;
+  margin-left: -1em;
+}
+
+.item-image {
+  vertical-align: middle;
+  width: 70px;
+  height: 120px;
+  border-radius:3px;
+
+
+}
+
+.media-buttons {
+  position:relative;
+  width:100%;
+  height:50px;
+  padding:2px;
+}
+
+
+.media-buttons > button {  
+  position: relative;
+  width: 2.3em;
+  height: 2.3em;
+  margin-left: -3px;
+ 
+}
+
+
+.no-play{ 
+  background-color: transparent;
+  color: rgb(0 0 0 / 18%);
+  border: 1px solid;
+}
+
+
+.play-button{
+  /*position:absolute;*/
+  top: -5em;
+  right: 3em;
+  z-index:2;
+  background-color: transparent;
+  color:transparent;
+  border: 1px solid; 
+}
+
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  
+  border-left: 18px solid white;
+}
+
+
+/* The heart of the matter */
+.xslide-wrapper {
+  position:absolute;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color:paleturquoise;
+  padding:1em 1em;
+}
+
+.scroller {
+  position: relative;
+  width: auto;
+  height: 12em;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+.item {  
+  display: inline-block;
+  padding-right:5px;
+  height:130px;
+  width:80px;
+  margin-bottom:2em;
+  margin: 0 6px 0 0;
+}
+
+.media-group{
+  margin-bottom:3em;
+}
+
+.rounded-xl {
+  border-radius: 1em;
+}
